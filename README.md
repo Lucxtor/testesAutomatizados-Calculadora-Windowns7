@@ -1,0 +1,2 @@
+# testesAutomatizados-Calculadora-Windowns7
+ 
