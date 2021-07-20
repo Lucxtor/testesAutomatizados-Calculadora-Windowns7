@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 10">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246135764"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Booa Caraio!"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="10"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]"/>
+					<Prp name="click point x" type="I" value="75"/>
+					<Prp name="object left" type="I" value="58"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496106597"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246112269"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 11))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]"/>
+					<Prp name="click point x" type="I" value="55"/>
+					<Prp name="object left" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="276"/>
+					<Prp name="datetime" type="D" value="44392.8496492014"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246498032"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 6))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="22"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7245776157"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="The process ID is 912."/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\SysWOW64\calc1.exe&quot; started."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="273"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="209"/>
+					<Prp name="line #" type="I" value="51"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]"/>
+					<Prp name="click point x" type="I" value="192"/>
+					<Prp name="object left" type="I" value="175"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496779051"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246785417"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 28))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="31"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="225"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="170"/>
+					<Prp name="line #" type="I" value="47"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn13&quot;]"/>
+					<Prp name="click point x" type="I" value="153"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object bottom" type="I" value="239"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="212"/>
+					<Prp name="datetime" type="D" value="44392.849674838"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.724675463"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn13&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 21))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="29"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="161"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn15&quot;]"/>
+					<Prp name="click point x" type="I" value="75"/>
+					<Prp name="object left" type="I" value="58"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="175"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="148"/>
+					<Prp name="datetime" type="D" value="44392.8496055787"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246071296"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn15&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 8))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]"/>
+					<Prp name="click point x" type="I" value="75"/>
+					<Prp name="object left" type="I" value="58"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496764236"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246770023"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 11))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="30"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246076968"/>
+			<Prp name="line no" type="I" value="60"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Calculo: 1+2=3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="273"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="209"/>
+					<Prp name="line #" type="I" value="51"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]"/>
+					<Prp name="click point x" type="I" value="192"/>
+					<Prp name="object left" type="I" value="175"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496584722"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246590741"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 28))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="24"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246431366"/>
+			<Prp name="line no" type="I" value="60"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Calculo: 50+300=350"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="17"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246597917"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Booa Caraio!"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="25"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="131"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn4&quot;]"/>
+					<Prp name="click point x" type="I" value="114"/>
+					<Prp name="object left" type="I" value="97"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496479398"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246484607"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn4&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 16))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="21"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7245744792"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Iniciar Calculadora"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="273"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="209"/>
+					<Prp name="line #" type="I" value="51"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]"/>
+					<Prp name="click point x" type="I" value="192"/>
+					<Prp name="object left" type="I" value="175"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496302315"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246309491"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 28))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="15"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 2">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7245759606"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Processo da calculadora foi iniciado"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.724574456"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Testes"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="170"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn11&quot;]"/>
+					<Prp name="click point x" type="I" value="153"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="276"/>
+					<Prp name="datetime" type="D" value="44392.8496463542"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246469097"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn11&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 23))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="20"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="53"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn2&quot;]"/>
+					<Prp name="click point x" type="I" value="36"/>
+					<Prp name="object left" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496079398"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246084954"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn2&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 5))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]"/>
+					<Prp name="click point x" type="I" value="75"/>
+					<Prp name="object left" type="I" value="58"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496284722"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246289815"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 11))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="14"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246315509"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Booa Caraio!"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="16"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]"/>
+					<Prp name="click point x" type="I" value="55"/>
+					<Prp name="object left" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="276"/>
+					<Prp name="datetime" type="D" value="44392.8496506597"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246576968"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 6))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="23"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]"/>
+					<Prp name="click point x" type="I" value="75"/>
+					<Prp name="object left" type="I" value="58"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.849625544"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.724626088"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn3&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 11))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="12"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="225"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="170"/>
+					<Prp name="line #" type="I" value="47"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn13&quot;]"/>
+					<Prp name="click point x" type="I" value="153"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object bottom" type="I" value="239"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="212"/>
+					<Prp name="datetime" type="D" value="44392.8496270949"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246276273"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn13&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 21))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="13"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246713773"/>
+			<Prp name="line no" type="I" value="60"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Calculo: 70*2=140"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="26"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="193"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="53"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn8&quot;]"/>
+					<Prp name="click point x" type="I" value="36"/>
+					<Prp name="object left" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object bottom" type="I" value="207"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="180"/>
+					<Prp name="datetime" type="D" value="44392.849671713"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246723495"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn8&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 3))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="27"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246792593"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Booa Caraio!"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="32"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]"/>
+					<Prp name="click point x" type="I" value="55"/>
+					<Prp name="object left" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="276"/>
+					<Prp name="datetime" type="D" value="44392.8496731134"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246737268"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 6))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="28"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="225"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn6&quot;]"/>
+					<Prp name="click point x" type="I" value="75"/>
+					<Prp name="object left" type="I" value="58"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object bottom" type="I" value="239"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="212"/>
+					<Prp name="datetime" type="D" value="44392.8496433912"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246440278"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn6&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 10))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="18"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="273"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="209"/>
+					<Prp name="line #" type="I" value="51"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]"/>
+					<Prp name="click point x" type="I" value="192"/>
+					<Prp name="object left" type="I" value="175"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="datetime" type="D" value="44392.8496121181"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246128241"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn17&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 28))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="170"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn11&quot;]"/>
+					<Prp name="click point x" type="I" value="153"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="276"/>
+					<Prp name="datetime" type="D" value="44392.8496093866"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246098843"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn11&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 23))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="92"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]"/>
+					<Prp name="click point x" type="I" value="55"/>
+					<Prp name="object left" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="276"/>
+					<Prp name="datetime" type="D" value="44392.8496449306"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44392.7246455324"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;calc1&quot;][&quot;wndCalculadora&quot;][&quot;CalcFrame&quot;][&quot;page32770&quot;][&quot;btn&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;calc1&quot;)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;Calculadora&quot;, 1)[&quot;Window&quot;](&quot;CalcFrame&quot;, &quot;&quot;, 1)[&quot;Window&quot;](&quot;#32770&quot;, &quot;&quot;, 2)[&quot;Window&quot;](&quot;Button&quot;, &quot;&quot;, 6))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="19"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1C425076-1E93-44AA-B31B-B8ECA4CCEA65}"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44392.7246252083"/>
+			<Prp name="line no" type="I" value="60"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Calculo: 2*2=4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="11"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

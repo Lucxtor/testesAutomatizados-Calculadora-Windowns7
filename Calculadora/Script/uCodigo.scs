@@ -1,0 +1,79 @@
+﻿function teste() {
+  Log["AppendFolder"]('Testes')
+  Calculadora_IniciarCalculadora();
+  calcBotoes('ce');
+  calcular('1+2=4');
+  Delay(1000);
+  calcular('2*2=4');
+  Delay(1000);
+  calcular('50+300=350')
+  Delay(1000);
+  calcular('70*2=140')
+  Log["PopLogFolder"]();
+}
+
+
+function Calculadora_IniciarCalculadora() {
+  Log["AppendFolder"]('Iniciar Calculadora');
+  if (Sys["WaitProcess"]("calc1")["Exists"]) {
+    Log["Message"]("Calculadora já está rodando.");
+  }else{
+      Log["Message"]('Processo da calculadora foi iniciado')
+      TestedApps["calc1"]["Run"]();
+      while (!Sys["WaitProcess"]("calc1")["Exists"]) {
+        Delay(500);
+      }
+  }
+  Log["PopLogFolder"]();
+}
+
+
+
+function calcBotoes(botao) {
+  
+ var btnCalc = Aliases["calc1"]["wndCalculadora"]["CalcFrame"]["page32770"];
+ switch (botao) {
+   case "0" : btnCalc["btn"]["ClickButton"](); break;
+   case "1" : btnCalc["btn2"]["ClickButton"](); break;
+   case "2" : btnCalc["btn3"]["ClickButton"](); break;
+   case "3" : btnCalc["btn4"]["ClickButton"](); break;
+   case "4" : btnCalc["btn5"]["ClickButton"](); break;
+   case "5" : btnCalc["btn6"]["ClickButton"](); break;
+   case "6" : btnCalc["btn7"]["ClickButton"](); break;
+   case "7" : btnCalc["btn8"]["ClickButton"](); break;
+   case "8" : btnCalc["btn9"]["ClickButton"](); break;
+   case "9" : btnCalc["btn10"]["ClickButton"](); break;
+   case "+" : btnCalc["btn11"]["ClickButton"](); break;
+   case "-" : btnCalc["btn12"]["ClickButton"](); break;
+   case "*" : btnCalc["btn13"]["ClickButton"](); break;
+   case "/" : btnCalc["btn14"]["ClickButton"](); break;
+   case "ce" : btnCalc["btn15"]["ClickButton"](); break;
+   case "c" : btnCalc["btn16"]["ClickButton"](); break;
+   case "=" : btnCalc["btn17"]["ClickButton"](); break;
+  }
+}
+
+function calcular(calculo) {
+  var cont;
+  var w;
+  
+  cont = 0;
+  Log["AppendFolder"]("Calculo: "+calculo);
+  while (aqString["GetLength"](calculo) >= cont) {
+    
+    calcBotoes(calculo[cont]);
+    if ( calculo[cont] == '=') {
+      if (aqString["SubString"](calculo, cont+1, aqString["GetLength"](calculo)-cont) == Aliases["calc1"]["wndCalculadora"]["CalcFrame"]["Window"]("#32770", "", 1)["Window"]("Static", "*", 3)["WndCaption"] ) {
+        Log["Message"]('Booa Caraio!');
+      } else {
+        Log["Error"]('Ih Rapaiz, revisa isso ai!!');
+      }
+      break;
+    }
+    cont += 1;
+  }
+  Log["PopLogFolder"]();
+  
+  
+    
+}

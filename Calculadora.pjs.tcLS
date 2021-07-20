@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{134ac6a9-8e7a-40d4-968e-b4af8fc2dd43}">
+				<Prp name="relpath" type="S" value="Calculadora\Calculadora.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{9582040F-45A1-47A9-961B-CD86A4E9F813}"/>
+			</Node>
+			<Node name="{68cb176e-8739-4388-a81b-ea578b436007}">
+				<Prp name="relpath" type="S" value="Calculadora\Calculadora.mds.tcLS"/>
+			</Node>
+			<Node name="{9582040f-45a1-47a9-961b-cd86a4e9f813}">
+				<Prp name="relpath" type="S" value="Calculadora\Calculadora.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{D9131B66-3DE6-497C-B9DE-2D521B8B7970}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>
